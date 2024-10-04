@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be Mine - Shubh</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Be Mine - Shubh</h1>
+    </header>
+    <main>
+        <section class="verse">
+            <p>Ni tu akhan naal kardi ishare</p>
+            <p>Sajje haath naal zulfaan sanware</p>
+            <p>Kedi gallo fikra ae kardi</p>
+            <p>Dekh mathe ta tyudiya kyon pawe</p>
+        </section>
+
+        <section class="verse">
+            <p>Bilo ni main sidhi rakhi</p>
+            <p>Rab naal jodd kude</p>
+            <p>Dukh tere saare hi chuka daan</p>
+            <p>Rakhi rab naal jodd kade</p>
+            <p>Dukh tere saare hi chuka daan</p>
+        </section>
+
+        <section class="chorus">
+            <p>Ek vaari je tu haan kare</p>
+            <p>Zind tere naam vi kara daan</p>
+            <p>Keda bolke ta dass kude</p>
+            <p>Kalli-kalli reej main puga daan</p>
+        </section>
+
+        <section class="verse">
+            <p>Ho nekhre tere ne kinne bande</p>
+            <p>Fukker ch valley saare chakk te</p>
+            <p>Jaan ka gali de vicho langhdi</p>
+            <p>Te utto nakk chodd di ae</p>
+            <p>Rakh lakk te haath ni ne ae</p>
+        </section>
+
+        <section class="verse">
+            <p>Qatal kara doon teri akh kude</p>
+            <p>Jaan kaddi jandiyan adawaan</p>
+            <p>Qatal kara doon teri akh kude</p>
+            <p>Jaan kaddi jandiyan adawaan</p>
+        </section>
+
+        <section class="chorus">
+            <p>Ek vaari je tu haan kare</p>
+            <p>Zind tere naam vi kara daan</p>
+            <p>Kehda bolke ta dass kude</p>
+            <p>Kalli-kalli reej main puga daan</p>
+        </section>
+
+        <section class="verse">
+            <p>Ho dekhi na dekhi na deri kar jaye</p>
+            <p>Mere te saheli teri mardi</p>
+            <p>Sofora di pandora la tu lain ni</p>
+            <p>La le jatt naal yaari kyon dardi rakane ni</p>
+        </section>
+
+        <section class="verse">
+            <p>Ni ae dil kalla samb ke tu rakh kude</p>
+            <p>Samb loon main teri aa parawaan</p>
+            <p>Ni ae dil kalla samb ke tu rakh kude</p>
+            <p>Samb loon main teri aa parawaan</p>
+        </section>
+
+        <section class="chorus">
+            <p>Ek vaari je tu haan kare</p>
+            <p>Zind tere naam vi kara daan</p>
+            <p>Kehda bolke ta dass kude</p>
+            <p>Kalli-kalli reej main puga daan</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Rubanjot kaur</p>
+    </footer>
+</body>
+</html>
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4); /* Soft gradient background */
+    color: #333;
+    line-height: 1.7;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 30px 0;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-family: 'Fredericka the Great', cursive;
+    color: #d63384; /* Vibrant pink */
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); /* Shadow for depth */
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff; /* White background for content */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+section {
+    margin-bottom: 25px;
+    padding: 15px;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s; /* Animation for hover effect */
+}
+
+section:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+}
+
+section.verse {
+    background-color: #e0f7fa; /* Light cyan for verses */
+    border-left: 5px solid #00796b; /* Teal left border */
+}
+
+section.chorus {
+    background-color: #ffe0b2; /* Light orange for chorus */
+    border-left: 5px solid #ff6f20; /* Deep orange left border */
+}
+
+p {
+    font-size: 1.25rem; /* Larger font size */
+    margin: 10px 0;
+}
+
+/* Styling for emotional impact */
+section.verse p:first-child {
+    font-weight: bold; /* Bold for the first line */
+    font-size: 1.4rem; /* Slightly larger for emphasis */
+    color: #00796b; /* Teal for positive emotions */
+    text-transform: uppercase; /* Yelling effect */
+}
+
+section.verse p:nth-child(2) {
+    font-style: italic; /* Sadness or longing */
+    color: #555; /* Darker gray for somber effect */
+}
+
+section.chorus p:first-child {
+    font-weight: bold; /* Bold for the first line */
+    font-size: 1.5rem; /* Larger font for emphasis */
+    color: #d63384; /* Match header color for importance */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+}
+
+section.chorus p:nth-child(2) {
+    color: #ff6f20; /* Deep orange for a passionate feeling */
+    font-size: 1.3rem; /* Slightly larger for emphasis */
+    font-style: italic; /* Expresses longing or desire */
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1rem;
+    color: #555; /* Gray color for footer */
+}
